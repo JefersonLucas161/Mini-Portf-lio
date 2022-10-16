@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mini Portfólio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="src/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css"> 
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+</head>
+
+<body>
+    <main id="cartao">
+        <div id="minhas-informacoes">
+            <img src="src/imagens/foto-perfil.jpg" alt="foto-perfil">
+            <h1 class="nome">Rodrigo da Silva </h1>
+            <h2 class="cargo">Desenvolvedor Frontend Junior</h2>
+        </div>   
+        <div id="conteudo">
+            <ul id="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="src/imagens/sobre.gif" alt="ícone-gif">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="src/imagens/coracao.gif" alt="gif-coração">
+                </li>
+            </ul>
+            
+            <div id="descricao">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">sobre</h3>
+
+                    <div class="paragrafo">
+                        <p>Oi! meu nome é Rodrigo Silva, seja bem-vindo(a)!</p>
+                        
+                        <p>
+                            Sou uma pessoa apaixonada pela programação desde quando eu tinha 15 anos. Sempre tive o sonho de trabalhar com programaçãoe atualmente comecei a colocar
+                            esse sonho em prática estudando<span class="verde">HTML, CSS e JavaScript</span>. Gosto muito de café (até demais), e meus principais hobbies são jogar MMO RPG, ver animes e séries.
+                        </p>
+                    </div>
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">minhas redes</h3>
+
+                    <ul id="redes-sociais">
+                        <li>
+                            <a href="" target="_blank" 
+                            class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jeferson-lucas-208538238/" target="_blank" 
+                            class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/JefersonLucas161" target="_blank" class="github">Github</a>
+                        </li>
+                    </ul>
+                </div>         
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
